@@ -12,7 +12,7 @@ class HelloWorldRouter extends AppDevRouter<string> {
   }
 
   async content(req: Request): Promise<string> {
-    return 'hello, world';
+    return 'hello, world!';
   }
 
 }
