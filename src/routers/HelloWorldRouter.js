@@ -1,7 +1,7 @@
 // @flow
 import { AppDevRouter } from 'appdev';
 
-class HelloWorldRouter extends AppDevRouter {
+class HelloWorldRouter extends AppDevRouter<string> {
 
   constructor() {
     super('GET');
@@ -11,7 +11,7 @@ class HelloWorldRouter extends AppDevRouter {
     return '/';
   }
 
-  async content(req: Request): Promise<any> {
+  async content(req: Request): Promise<string> {
     return 'hello, world';
   }
 
