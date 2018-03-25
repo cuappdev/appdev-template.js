@@ -1,8 +1,12 @@
 # AppDev JavaScript Backend Template
 
-This is a template for writing AppDev backends in JavaScript. We use ES6+ syntax and Flow to take advantage of modern JavaScript abstractions and strong typing. It includes a simple API with a "hello, world!" endpoint.
+This is a template for writing AppDev backends in JavaScript. It uses the following technologies
 
-We use Babel and Webpack to bundle our code from ES6+ and Flow syntax to ES5. We also use Flow to typecheck our code.
+1. Babel - a transpiler from ES6+ modern JavaScript syntax back to ES5 "classic" syntax
+2. Flow - a static typing system and type checker developed by Facebook
+3. Jest - a testing framework for JavaScript
+
+It includes a simple "hello, world!" router as a base.
 
 ## Build
 

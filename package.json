@@ -13,7 +13,7 @@
   "author": "Cornell AppDev",
   "license": "ISC",
   "dependencies": {
-    "appdev": "^0.4.0",
+    "appdev": "git+https://github.com/cuappdev/appdev.js.git",
     "axios": "^0.18.0",
     "babel-core": "^6.26.0",
     "babel-jest": "^23.0.0-alpha.0",
