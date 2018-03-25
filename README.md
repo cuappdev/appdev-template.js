@@ -37,3 +37,8 @@ And to stop the Flow server:
 ```
 npm run flow-stop
 ```
+
+To run tests written using Jest:
+```
+npm test
+```
